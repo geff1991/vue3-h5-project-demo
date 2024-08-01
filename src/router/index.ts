@@ -15,7 +15,7 @@ const router = createRouter({
       // this generates a separate chunk (About.[hash].js) for this route
       // which is lazy-loaded when the route is visited.
       component: () => import('@/views/HomeView.vue'),
-      meta: { title: '投研输出平台' }
+      meta: { title: 'vue3-h5-project-demo' }
     }
   ]
 })
