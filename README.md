@@ -1,6 +1,7 @@
-# vue3_h5_project_demo
+# vue3-h5-project-demo
 
 ## demo 旨在快速搭建vue3 h5项目，技术栈涵盖如下：
+
 - vue3 框架 ✅
 - pinia 状态管理 ✅
 - vite 打包工具 ✅
@@ -12,7 +13,7 @@
 - vConsole 调试 ✅
 - postcss-px-to-viewport 布局 ✅
 - vue-router 路由管理 ✅
-- vue-echarts 图标组件 
+- vue-echarts 图标组件
 - api封装 ✅
 - request axios 接口请求封装拦截 ✅
 - mock数据 ✅
@@ -23,14 +24,12 @@
 - playwright 单元测试 ✅
 - .env 系统环境变量配置、src别名的配置 ✅
 - vue-wechat-title 动态修改网页title ✅
-- report.js 统计页面停留时长  ✅
+- report.js 统计页面停留时长 ✅
 - vite-plugin-svg-icons svg图标组件及适配主题 ✅
 - unplugin-auto-import/vite vue、vue-router的自动引入，页面不需要在写 import { onMounted, ref } from 'vue 等基本属性引入，可以直接使用。处理自动引入导致的eslint报错和ts报错。✅
 - vite-plugin-vue-setup-extend setup 写法增强插件 ✅
 - vite-plugin-compression 压缩静态文件 ✅
 - rollup-plugin-visualizer 打包分析，自动打开分析报告 ✅
-	
-
 
 ## Recommended IDE Setup
 
@@ -51,18 +50,22 @@ npm install
 ```
 
 ## Husky 配置
-### .husky/_/pre-commit
+
+### .husky/\_/pre-commit
+
 ```sh
 . "$(dirname -- "$0")/husky.sh"
 npx lint-staged
 ```
-### .husky/_/commit-msg
+
+### .husky/\_/commit-msg
+
 ```sh
 . "$(dirname -- "$0")/husky.sh"
 npx --no-install commitlint --edit $1
 ```
-- 该配置在执行 `npm install` 后会被覆盖，建议可以选择只安装新增的包，或者把 `npm run prepare` 命令删掉或改名后，再执行 `npm install`，然后再恢复就好。
 
+- 该配置在执行 `npm install` 后会被覆盖，建议可以选择只安装新增的包，或者把 `npm run prepare` 命令删掉或改名后，再执行 `npm install`，然后再恢复就好。
 
 ## Project Setup
 
